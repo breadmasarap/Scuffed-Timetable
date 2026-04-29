@@ -8,10 +8,11 @@
     <script>
         const data = {
             "users" : {
-                "Catsium" : {
+                "Classwork" : {
                     "colour" : "#10579D",
-                    "background_colour" : "#F7DBE5",
-                    "code" : "AI And Data",
+                    "background_colour" : "#e4a8ca",
+                    "code" : "It's All Over",
+                    "image": "./images/mzk.png",
                     "timetable" : [
                         {day: 1, start: '9.00', end: '11.00', code_name: 'AML', name: 'Applied Machine Learning', classroom: 'S.310 SEG'},
                         {day: 1, start: '11.00', end: '13.00', code_name: 'CCD', name: 'Cloud Computing Development', classroom: 'S.310 SEG'},
@@ -19,9 +20,9 @@
                         {day: 1, start: '14.00', end: '16.00', code_name: 'DEP', name: 'Data Engineering Project', classroom: 'S.130A SEG'},
                         {day: 2, start: '10.00', end: '13.00', code_name: 'DPV', name: 'Data Prep & Visualisation', classroom: 'S.310 SEG'},
                         {day: 2, start: '13.00', end: '15.00', name: '🍽 Lunch', break: true},
-                        {day: 2, start: '15.00', end: '16.00', code_name: 'EVOGMS', name: 'Evolution of Games', classroom: 'M.414 SDM'},
-                        {day: 2, start: '16.00', end: '17.00', code_name: 'GS-UCL', name: 'Understanding Contracts & The Law', classroom: 'LTD-5 SBM'},
-                        {day: 2, start: '17.00', end: '18.00', code_name: 'ARTSAP', name: 'Visual Arts Appreciation', classroom: 'N1.813 SDM'},
+                        {day: 2, start: '15.00', end: '16.00', code_name: 'DXX212', name: 'Visual Arts Appreciation', classroom: 'N1.813 SDM'},
+                        {day: 2, start: '16.00', end: '17.00', code_name: 'DXX208', name: 'Elements of Interior Design', classroom: 'M.406 SDM'},
+                        {day: 2, start: '17.00', end: '18.00', code_name: 'BMX212', name: 'Understanding Contracts & the Law', classroom: 'LTD-5 SBM'},
                         {day: 3, start: '10.00', end: '11.00', code_name: 'PEM (Even)', name: 'Homeroom', classroom: 'S.310 SEG'},
                         {day: 3, start: '11.00', end: '13.00', code_name: 'AML', name: 'Applied Machine Learning', classroom: 'S.310 SEG'},
                         {day: 3, start: '13.00', end: '14.00', name: '🍽 Lunch', break: true},
@@ -32,118 +33,20 @@
                     ]
                 }, 
 
-                "Dom" : {
+                "Free Time" : {
                     "colour" : "#351E04",
-                    "background_colour" : "#D3A2F5",
-                    "code" : "Applied AI",
+                    "background_colour" : "#ccaa87",
+                    "code" : "What Wounds Can't Break",
+                    "image": "./images/ena.png",
                     "timetable" : [
-                        {day: 1, start: '9.00', end: '11.00', code_name: 'COMT', name: 'Computational Thinking', classroom: '03-06-50'},
-                        {day: 1, start: '11.00', end: '13.00', code_name: 'SCA', name: 'Sustainability & Climate Action', classroom: '03-06-50'},
-                        {day: 2, start: '9.00', end: '11.00', code_name: 'COMT', name: 'Computational Thinking', classroom: '03-06-55'},
-                        {day: 2, start: '11.00', end: '13.00', code_name: 'DAVA', name: 'Data Analytics & Visualization', classroom: '03-06-55'},
-                        {day: 2, start: '13.00', end: '14.00', name: '🍽 Lunch', break: true},
-                        {day: 2, start: '14.00', end: '15.00', code_name: 'Homeroom', name: 'Homeroom', classroom: ''},
-                        {day: 2, start: '15.00', end: '18.00', code_name: 'UXID', name: 'UX & Interface Design', classroom: '03-08-29/1'},
-                        {day: 3, start: '14.00', end: '16.00', code_name: 'CYFUN', name: 'Cybersecurity Fundamentals', classroom: '03-07-50'},
-                        {day: 3, start: '16.00', end: '18.00', code_name: 'LOMA', name: 'Logic & Mathematics', classroom: '03-07-50'},
-                        {day: 3, start: '18.00', end: '19.00', code_name: 'SCA', name: 'Sustainability & Climate Action', classroom: 'E-Learning', online: true},
-                        {day: 4, start: '8.00', end: '9.00', code_name: 'LOMA', name: 'Logic & Mathematics', classroom: 'Lecture'},
-                        {day: 4, start: '9.00', end: '11.00', code_name: 'DAVA', name: 'Data Analytics & Visualization', classroom: '03-08-29'},
-                        {day: 4, start: '11.00', end: '13.00', code_name: 'EPL', name: 'Effective Personal Leadership', classroom: '03-08-29'},
-                        {day: 4, start: '18.00', end: '19.00', code_name: 'EPL', name: 'Effective Personal Leadership', classroom: 'E-Learning', online: true}
+                        {day: 1, start: '16.00', end: '18.00', code_name: 'FT', name: 'Gym', classroom: 'T-Junction'},
+                        {day: 2, start: '13.00', end: '14.00', code_name: 'FT', name: 'Gym', classroom: 'T-Junction'},
+                        {day: 4, start: '10.00', end: '12.00', code_name: 'FT', name: 'Gym', classroom: 'T-Junction'},
+                        {day: 4, start: '12.00', end: '13.00', name: '🍽 Lunch', break: true},
+                        {day: 5, start: '13.00', end: '16.00', code_name:'FT', name: 'accompany sister', classroom: 'Grace Independent Baptist Church'},                                                  
                     ]   
-                },
-
-                "Zathral" : {
-                    "colour" : "#271818",
-                    "background_colour" : "#90EDE2",
-                    "code" : "AI And Data",
-                    "timetable" : [
-                        {day: 1, start: '10.00', end: '11.00', code_name: 'COMT', name: 'Data Processing and Visualisation', classroom: 'E-Learning', online: true},
-                        {day: 2, start: '9.00', end: '11.00', code_name: 'ICSD', name: 'Intelligent Control Sys Dev', classroom: 'R.412 SEG'},
-                        {day: 2, start: '11.00', end: '12.00', name: '🍽 Lunch', break: true},
-                        {day: 2, start: '12.00', end: '14.00', code_name: 'DEP', name: 'Data Engineering Project', classroom: 'S.130A SEG'},
-                        {day: 2, start: '14.00', end: '15.00', code_name: 'MAPDEV', name: 'Mobile Application Development', classroom: 'L.635 SIT'},
-                        {day: 2, start: '15.00', end: '16.00', code_name: 'GSEFX', name: 'Green Screen Effects', classroom: 'N1.507 SDM'},
-                        {day: 2, start: '16.00', end: '17.00', code_name: 'EVOGMS', name: 'Evolution of Games', classroom: 'M.414 SDM'},
-                        {day: 3, start: '11.00', end: '12.00', code_name: 'PEM (Even)', name: 'Homeroom', classroom: 'S.306 SEG'},
-                        {day: 3, start: '12.00', end: '13.00', name: '🍽 Lunch', break: true},
-                        {day: 3, start: '13.00', end: '15.00', code_name: 'AML', name: 'Applied Machine Learning', classroom: 'P.507 SEG'}, 
-                        {day: 3, start: '15.00', end: '18.00', code_name: 'DPV', name: 'Data Prep & Visualisation', classroom: 'P.507 SEG'}, 
-                        {day: 4, start: '11.00', end: '13.00', code_name: 'CCD', name: 'Cloud Computing Development', classroom: 'P.507'},
-                        {day: 4, start: '13.00', end: '14.00', name: '🍽 Lunch', break: true},
-                        {day: 4, start: '14.00', end: '16.00', code_name: 'AML', name: 'Applied Machine Learning', classroom: 'P.507 SEG'}, 
-                        
-                        
-                        
-                        {day: 5, start: '8.00', end: '10.00', code_name: 'SDCA', name: 'Sensor Data Collection & Analysis', classroom: 'S.373 SEG'},
-                        {day: 5, start: '10.00', end: '12.00', code_name: 'DSM', name: 'Data Security & Management', classroom: 'S.342 SEG'} 
-                    ]
-                },
-
-                "Shadow" : {
-                    "colour" : "#5c4a3d",
-                    "background_colour" : "#e8d5b7",
-                    "code" : "Digital Product",
-                    "timetable" : [
-                        {day: 1, start: '9.00', end: '11.00', code_name: 'AM', name: 'Applied Mechanics', classroom: 'S.522 SEG'},
-                        {day: 1, start: '11.00', end: '13.00', code_name: 'PROG', name: 'Programming', classroom: 'S.558 SEG'},
-                        {day: 2, start: '11.00', end: '13.00', code_name: 'PROG', name: 'Programming', classroom: 'S.558 SEG'},
-                        {day: 2, start: '13.00', end: '14.00', name: '🍽 Lunch', break: true},
-                        {day: 2, start: '14.00', end: '16.00', code_name: 'AM', name: 'Applied Mechanics', classroom: 'S.476 SEG'},
-                        {day: 2, start: '16.00', end: '17.00', code_name: 'PCS1', name: 'Professional Core Skills', classroom: 'S.476 SEG'},
-                        {day: 2, start: '17.00', end: '18.00', code_name: 'PEM (Odd)', name: 'Professional Ethics & Mindset', classroom: 'S.476 SEG'},
-                        {day: 3, start: '9.00', end: '11.00', code_name: 'ADA', name: 'Advanced Data Analysis', classroom: 'E-Learning', online: true},
-                        {day: 3, start: '14.00', end: '16.00', code_name: 'ADA', name: 'Advanced Data Analysis', classroom: 'S.521 SEG'},
-                        {day: 3, start: '16.00', end: '18.00', code_name: 'ABFC', name: 'Abstract Fundamentals', classroom: 'S.521 SEG'},
-                        {day: 4, start: '12.00', end: '15.00', code_name: 'UDWD', name: 'User Design & Web Dev', classroom: 'S.539 SEG'},
-                        {day: 5, start: '9.00', end: '11.00', code_name: 'ABFC', name: 'Abstract Fundamentals', classroom: 'E-Learning', online: true}
-                    ]
-                },
-
-                "Game" : {
-                    "colour" : "#1e3a5f",
-                    "background_colour" : "#d4e8f0",
-                    "code" : "IT",
-                    "timetable" : [
-                        {day: 1, start: '14.00', end: '17.00', code_name: 'BIE', name: 'Biomedical Information Engineering', classroom: 'L.605 SIT'},
-                        {day: 2, start: '8.00', end: '9.00', code_name: 'NETWKT', name: 'Network Technology', classroom: 'E-Learning SIT', online: true},
-                        {day: 2, start: '9.00', end: '12.00', code_name: 'PROG', name: 'Programming', classroom: 'L.637 SIT'},
-                        {day: 2, start: '12.00', end: '14.00', name: '🍽 Lunch', break: true},
-                        {day: 2, start: '14.00', end: '15.00', code_name: 'PEM', name: 'Professional Ethics & Mindset', classroom: 'L.530 SIT'},
-                        {day: 2, start: '15.00', end: '16.00', code_name: 'PCS1', name: 'Professional Core Skills', classroom: 'L.530 SIT'},
-                        {day: 2, start: '16.00', end: '18.00', code_name: 'AMATHC', name: 'Applied Mathematics & Critical Thinking', classroom: 'L.502 SIT'},
-                        {day: 3, start: '9.00', end: '12.00', code_name: 'NETWKT', name: 'Network Technology', classroom: 'L.606 SIT'},
-                        {day: 3, start: '12.00', end: '13.00', name: '🍽 Lunch', break: true},
-                        {day: 3, start: '13.00', end: '17.00', code_name: 'UXDWD', name: 'UX Design & Web Dev', classroom: 'L.604 SIT'},
-                        {day: 5, start: '13.00', end: '14.00', code_name: 'BIE', name: 'Biomedical Information Engineering', classroom: 'E-Learning', online: true},
-                        {day: 5, start: '14.00', end: '15.00', code_name: 'UXDWD', name: 'UX Design & Web Dev', classroom: 'E-Learning', online: true},
-                        {day: 5, start: '15.00', end: '16.00', code_name: 'PROG', name: 'Programming', classroom: 'E-Learning', online: true}
-                    ]
-                },
-
-                "Waffles" : {
-                    "colour" : "#8b5a00",
-                    "background_colour" : "#fff4e6",
-                    "code" : "Business",
-                    "timetable" : [
-                        {day: 1, start: '9.00', end: '11.00', code_name: 'ELCOM1', name: 'E-Learning Communication', classroom: 'P.504 SEG'},
-                        {day: 1, start: '11.00', end: '13.00', name: '🍽 Lunch', break: true},
-                        {day: 1, start: '13.00', end: '15.00', code_name: 'IT110F', name: 'IT Fundamentals', classroom: 'L.631 SIT'},
-                        {day: 1, start: '15.00', end: '17.00', code_name: 'PDL', name: 'Professional Development', classroom: 'P.504 SEG'},
-                        {day: 2, start: '9.00', end: '11.00', code_name: 'FG105F', name: 'Front-End Design', classroom: 'G.221 NYP'},
-                        {day: 2, start: '11.00', end: '12.00', name: '🍽 Lunch', break: true},
-                        {day: 2, start: '12.00', end: '14.00', code_name: 'ELCOM1', name: 'E-Learning Communication', classroom: 'P.504 SEG'},
-                        {day: 3, start: '9.00', end: '11.00', code_name: 'PDL', name: 'Professional Development', classroom: 'S.336 SEG'},
-                        {day: 3, start: '11.00', end: '12.00', name: '🍽 Lunch', break: true},
-                        {day: 3, start: '12.00', end: '14.00', code_name: 'FM1', name: 'Financial Management', classroom: 'P.504 SEG'},
-                        {day: 3, start: '14.00', end: '16.00', code_name: 'IT110F', name: 'IT Fundamentals', classroom: 'L.631 SIT'},
-                        {day: 4, start: '9.00', end: '11.00', code_name: 'FM1', name: 'Financial Management', classroom: 'P.504 SEG'},
-                        {day: 4, start: '11.00', end: '13.00', code_name: 'ELCOM1', name: 'E-Learning Communication', classroom: 'P.504 SEG'},
-                        {day: 5, start: '8.00', end: '9.00', code_name: 'ELCOM1', name: 'E-Learning Communication', classroom: 'E-Learning', online: true},
-                        {day: 5, start: '10.00', end: '12.00', code_name: 'FG104F', name: '', classroom: 'LTQ-10 CILS'}
-                    ]
                 }
+
 
                 
             }
@@ -155,7 +58,7 @@
 
         /* defaults all to 0 */
         * {
-            box-sizing: 0;
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
@@ -169,7 +72,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            table-layout: fixed
+            table-layout: fixed    
         }
 
         /* shared for both th and td */
@@ -272,6 +175,58 @@
         .note{font-size:10px;color:#888;margin-top:8px;padding:6px 8px;background:#f9f9f9;border-radius:6px}
         #status{font-size:11px;color:#888}
 
+                    /* DARK MODE */
+body.dark {
+    background: #121212;
+    color: #e0e0e0;
+}
+
+body.dark #capture-area {
+    background: #1e1e1e;
+    border-color: #333;
+}
+
+body.dark th {
+    background: #2a2a2a;
+    color: #ccc;
+}
+
+body.dark td {
+    border-color: #333;
+}
+
+body.dark .tc {
+    background: #1a1a1a;
+    color: #aaa;
+}
+
+body.dark .tab {
+    background: #2a2a2a;
+    color: #ccc;
+    border-color: #444;
+}
+
+body.dark .tab.active {
+    background: #0C447C;
+    color: #fff;
+    border-color: #0C447C;
+}
+
+body.dark .btn {
+    background: #2a2a2a;
+    color: #ddd;
+    border-color: #444;
+}
+
+body.dark .btn:hover {
+    background: #3a3a3a;
+}
+
+body.dark .note {
+    background: #1a1a1a;
+    color: #aaa;
+}
+
 
     </style>
 
@@ -293,10 +248,11 @@
             <!-- export button -->
             <div class = "exports">
 
-                <!-- png button -->
-                <button class = "btn", onclick="exportPNG()">
-                    <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="12" height="10" rx="1"/><path d="M2 9l3-3 3 3 2-2 4 3"/><circle cx="11" cy="5" r="1" fill="currentColor" stroke="none"/></svg>PNG
-                </button>
+                <button class="btn" onclick="toggleDarkMode()">🌙 Dark</button>
+                    <!-- png button -->
+                    <button class = "btn", onclick="exportPNG()">
+                        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="12" height="10" rx="1"/><path d="M2 9l3-3 3 3 2-2 4 3"/><circle cx="11" cy="5" r="1" fill="currentColor" stroke="none"/></svg>PNG
+                    </button>
 
                 <span id="status"></span>
             </div>
@@ -336,6 +292,11 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
+
+function toggleDarkMode() {
+    document.body.classList.toggle('dark');
+}
+
 // set visibility
 for (let username in data.users) {
     data.users[username].visibility = true;
@@ -359,12 +320,55 @@ function updateColour() {
     for (let username in data.users) {
         const user = data.users[username]
         if (data.users[username].visibility == true) {
-            legend_html += `<span class = "leg" style = "background: ${user.background_colour}; color: ${user.colour}">${username} (${user.code})</span>`;
+            legend_html += `
+            <span class="leg" style="background: ${user.background_colour}; color: ${user.colour}; display:flex; align-items:center; gap:6px;">
+                ${user.image ? `<img src="${user.image}" style="width:16px; height:16px; border-radius:4px;">` : ''}
+                ${username} (${user.code})
+            </span>`;
         }
     };
     document.getElementById("list_colour").innerHTML = legend_html;
 }
 
+function hexToRgb(hex) {
+    hex = hex.replace('#','');
+    if (hex.length === 3) {
+        hex = hex.split('').map(x => x + x).join('');
+    }
+    const num = parseInt(hex, 16);
+    return {
+        r: (num >> 16) & 255,
+        g: (num >> 8) & 255,
+        b: num & 255
+    };
+}
+
+function rgbToHex(r, g, b) {
+    return "#" + [r, g, b].map(x => {
+        const hex = x.toString(16);
+        return hex.length === 1 ? "0" + hex : hex;
+    }).join('');
+}
+
+// darken background
+function adjustBackground(hex) {
+    const {r, g, b} = hexToRgb(hex);
+    return rgbToHex(
+        Math.floor(r * 0.5),
+        Math.floor(g * 0.5),
+        Math.floor(b * 0.5)
+    );
+}
+
+// brighten text
+function adjustText(hex) {
+    const {r, g, b} = hexToRgb(hex);
+    return rgbToHex(
+        Math.min(255, Math.floor(r + (255 - r) * 0.4)),
+        Math.min(255, Math.floor(g + (255 - g) * 0.4)),
+        Math.min(255, Math.floor(b + (255 - b) * 0.4))
+    );
+}
 // display timetable
 function updateTimetable() {
     let timetable_html = ` `
@@ -440,6 +444,10 @@ function updateTimetable() {
     document.getElementById("timetable").innerHTML = timetable_html;
 }
 
+function isDarkMode() {
+    return document.body.classList.contains('dark');
+}
+
 // display certain users
 function updateButton(button) {
     let username = button.textContent.trim()
@@ -502,7 +510,7 @@ function updateButton(button) {
 function setStatus(msg,t){const s=document.getElementById('status');s.textContent=msg;if(t)setTimeout(()=>s.textContent='',t);}
 function exportPNG(){
   setStatus('Generating...');
-  html2canvas(document.getElementById('capture-area'),{scale:2,backgroundColor:'#ffffff'}).then(c=>{
+  html2canvas(document.getElementById('capture-area'),{scale:2,backgroundColor: isDarkMode() ? '#1e1e1e' : '#ffffff'}).then(c=>{
     const a=document.createElement('a');a.download='group_schedule.png';a.href=c.toDataURL('image/png');a.click();
     setStatus('Downloaded!',2500);
   }).catch(()=>setStatus('Error, try again',2500));
