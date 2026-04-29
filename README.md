@@ -1,6 +1,7 @@
 # Differences from V2
 
 added dark mode toggle button
+
 added images next to the headings
 
 
