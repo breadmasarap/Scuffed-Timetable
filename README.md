@@ -1,2 +1,4 @@
 # Scuffed-Timetable
-Timetable Editor For scuffed
+
+added dark mode toggle button
+export button seems to be broken
