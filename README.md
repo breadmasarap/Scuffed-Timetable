@@ -1,3 +1,11 @@
+# Scuffed timetable (4's version)
+- idk what to put here lol
+
+
+
+
+
+
 # Catsium's changes
 - Added a events tab
 - Added edit button (to add people, to add classes, etc.)
