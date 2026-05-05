@@ -1,10 +1,16 @@
-# Differences from V2
+# Catsium's changes
+- Added a events tab
+- Added edit button (to add people, to add classes, etc.)
+- Added function to save as png/pdf
+- Added a Server function (doesn't work on this release atm)
+- Added a custom font feature
 
-added dark mode toggle button
+# My own additions
+- Added dark mode (now saves user's preferences)
+- Added two sub-categories : Class & Free Time
+- Added avatars (for personalization)
+- Added mobile support
 
-added images next to the headings
+No online support yet
 
-
-
-# idk how to fix these things
-export button (as a png) is broken, seems that html2canvas doesnt support local file images
+<img width="755" height="425" alt="image" src="https://github.com/user-attachments/assets/f1c9cf00-ee57-4832-bb69-3bd3aa059ad5" />
